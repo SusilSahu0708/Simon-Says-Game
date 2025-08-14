@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    font-family: sans-serif;
+    height: 100vh;
+    width: 100vw;
+    /* background-color: yellowgreen; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 2rem; */
+    /* text-align: center; */
+}
+
+h1 {
+    position: relative;
+    bottom: 20px;
+}
+
+h3 {
+    margin-bottom: 20px;
+}
+
+.gameContainer {
+    height: 400px;
+    width: 400px;
+    /* background-color: rgb(173, 173, 255); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top {
+    height: 50%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.bottom {
+    height: 50%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left {
+    width: 45%;
+    height: 90%;
+    /* background-color: yellow; */
+    border-radius:40px;
+    border: 7px solid black;
+}
+
+.right {
+    width: 45%;
+    height: 90%;
+    /* background-color: yellow; */
+    border-radius:40px;
+    border: 7px solid black;
+}
+
+
+#red {
+    background-color: red;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#orange {
+    background-color:orange;
+}
+
+.flash {
+    background-color: white !important;
+}
+
+.userFlash {
+    background-color: black !important;
+}
+
+.alert {
+    background-color: red;
+}
